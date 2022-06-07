@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    padding: 0;
+}
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%,
+            rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.alpha {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.row-6 {
+    display: flex;
+    gap: 4px;
+}
+.base-key {
+    height: 27px;
+    width: 59px;
+    font-size: 12px;
+    margin: 3px;
+}
+button {
+    border-radius: 5px;  
+    border-color: transparent;  
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.bkey {
+    height: 62px;
+    width: 61px;
+    margin: 3px;
+}
+.tilde {
+    width: 50px;
+}
+.backspace {
+    width: 112.5px;
+}
+.tab {
+    width: 90px;
+}
+.backslash {
+    width: 71.5px;
+}
+.caps-lock {
+    width: 105px;
+}
+.enter {
+    width: 127.5px;
+}
+.leftshift {
+    width: 135px;
+}
+.rightshift {
+    width: 169px;
+}
+.up-down {
+    display: flex;
+    flex-direction: column;
+}
+.up, .down {
+    height: 50%;
+    width: 59px;
+    font-size: 12px;
+}
+.space {
+    width: 386.5px;
+}
+.a,.s,.w,.d {
+    text-align: center;
+}
